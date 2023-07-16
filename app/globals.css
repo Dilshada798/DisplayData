@@ -1,0 +1,110 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color:grey;
+}
+.header{
+  height: 100px;
+  background-color:#374259;
+  color: white;
+  background-color:#000;
+  border:2px solid red;
+}
+.header-img{
+    width:70px;
+    height:70px;
+    margin-top: 13px;
+    padding: 0px 40px
+}
+
+.head1{
+    width: 140px;
+    height:98px;
+    float: left;
+    margin-left:80px;
+
+
+}
+.head2{
+    width: 184px;
+    height:98px;
+    float: left;
+    padding: 0px 6px;
+
+}
+
+.head3{
+    float: left;
+    width: 170px;
+    height:98px;
+    margin-left: 1069px;
+
+}
+.head4{
+    float: left;
+    width: 170px;
+    height:98px;
+}
+b{
+    position:relative;
+    top: 36px;
+    font-size:25px;
+}
+
+.moviesrow{
+    height:348px;
+    width: 1686px;
+    margin:auto;
+    border:2px solid maroon;
+}
+.col21{
+    padding:10px;
+    width: 313px;
+    height: 348px;
+    box-sizing: border-box;
+    float: left;
+    border:2px solid purple; 
+
+}
+.col22{
+    padding:10px;
+    height: 348px;
+    width: 1353px;
+    box-sizing: border-box;
+    float: left;
+    margin-left:20px;
+    color:white;
+    border:2px solid black;
+
+}
+
+.col23{
+    height: 241px;
+    width: 1323px;
+    color:white; 
+    border:2px solid blue;
+}
+
+.col24{
+    height: 76px;
+    width: 1323px;
+    color:white; 
+    border:2px solid green;
+}
+.display_img{
+    height: 312px;
+    width: 279px;
+    padding: 5px;
+}
+.del-btn{
+    margin-left: 95%;
+    height: 40px;
+}
+.like-img{
+    width:20px;
+
+}
+
+
+
+
