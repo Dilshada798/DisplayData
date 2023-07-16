@@ -14,6 +14,7 @@ function Page() {
     const updatedMovies = data.filter((item) => item.id !== id);
     setData(updatedMovies);
   };
+  
   const handleVoteUp = (id) => {
     const updatedLikes = { ...likes };
 
