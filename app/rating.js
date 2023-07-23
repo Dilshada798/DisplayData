@@ -10,13 +10,11 @@ function Rating({ onLike, likes, onDislike }) {
         alt="no"
         onClick={onLike}
       />
-
       <span>
         <div className="displaydata">
           <span className="circle">{likes}</span>
         </div>
       </span>
-
       <img
         className="dislike_btn"
         src="dislike.png"
@@ -27,7 +25,6 @@ function Rating({ onLike, likes, onDislike }) {
         </>
     );
 };
-
 export default Rating;
 
 

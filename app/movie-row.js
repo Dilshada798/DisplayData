@@ -7,7 +7,6 @@ function Movierow({ movie, likes, onLike, onDislike, onDelete }) {
         <div className="moviesrow">
             <div className="col21">
                 <img className="display_img" src="Dear Zindagi.png" alt="no" />
-
             </div>
 
             <div className="col22">
@@ -17,19 +16,14 @@ function Movierow({ movie, likes, onLike, onDislike, onDelete }) {
                     <p>{movie.Description}</p>
                 </div>
                 <Rating
-
-
                     onLike={onLike}
                     onDislike={onDislike}
                     likes={likes}
                 />
-
                 <Delete onDelete={onDelete} />
-
             </div>
             <hr />
         </div>
-
     );
 }
 export default Movierow;

@@ -1,7 +1,8 @@
 body{
   margin: 0%;
   padding: 0%;
-  background-color:grey;
+  background-color:#0E0E15;
+;
 }
 .header{
   height: 100px;
@@ -128,20 +129,26 @@ b{
   height: 28px;
   margin-left: 4px;
   float: left;
-  background-color: gray;
+  background-color: grey;
    width: 31px;
   border-radius: 50%;
   padding: 4px;
   color: white;
-};
-
-.circle{
-  margin-left: 14px;
-  top: 10px;
-  position: relative;
-  padding:2px;
 }
-
-
-
-
+.circle{
+    padding:9px;
+    
+}
+.movieadd{
+    color:#fff;
+}
+.footer{
+  height: 170px;
+  background-color:#27374D;
+  color: white;  
+}
+.footer1{
+    width: 1200px;
+    height: 169px;
+    margin:auto;
+}
