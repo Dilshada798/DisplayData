@@ -1,7 +1,7 @@
 function Footer() {
   const images = [
-    { src: "Icon - Logo Navgurukul.png", alt: "no" },
-    { src: "Class Project @React.png", alt: "no" }
+    { src: "/Icon - Logo Navgurukul.png", alt: "Navgurukul Logo" },
+    { src: "/Class Project @React.png", alt: "Class Project" }
   ];
   return (
     <div className="footer">
